@@ -77,11 +77,11 @@ def generate_answer(query):
 
 # 8. สร้างอินเทอร์เฟซด้วย Streamlit
 def main():
-    st.title("RAG Chatbot เกี่ยวกับจังหวัดน่าน")
+    st.title("RAG Chatbot เกี่ยวกับวัดจังหวัดน่าน")
     st.write("สวัสดี Chatbot ที่ช่วยตอบคำถามจากเอกสารที่มีอยู่")
 
     # กำหนด path ของไฟล์ PDF
-    pdf_path = "pdf/จังหวัดน่าน.pdf"
+    pdf_path = "pdf/วัดในจังหวัดน่าน.pdf"
 
     # ตรวจสอบว่าไฟล์ PDF มีอยู่
     if os.path.exists(pdf_path):
