@@ -115,7 +115,7 @@ def search_documents(query):
 add_documents_to_qdrant(documents)
 
 # UI ด้วย Streamlit
-st.title("ระบบค้นหาวัดในจังหวัดน่าน 🏯")
+st.title("RAG Chatbot ค้นหาวัดในจังหวัดน่าน 🏯")
 
 query = st.text_input("กรุณาป้อนชื่อวัดที่ต้องการค้นหา:")
 if st.button("ค้นหา"):
